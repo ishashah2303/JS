@@ -1,11 +1,11 @@
 let score=undefined
 
-console.log(typeof score);
-console.log(typeof(score));
+//console.log(typeof score);
+//console.log(typeof(score));
 
 let valueInNumber=Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
 
 /*
     "33" -- 33
@@ -16,7 +16,7 @@ console.log(valueInNumber);
 
 let isLoggedIn=1
 let booleanIsLoggedIn=Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+//console.log(booleanIsLoggedIn)
 
 /* 1 -- true
     "" -- false
@@ -25,5 +25,13 @@ console.log(booleanIsLoggedIn)
 
 let someNumber = 33
 let stringNumber  = String(someNumber)
-console.log(stringNumber);
-console.log(typeof (stringNumber))
+//console.log(stringNumber);
+//console.log(typeof (stringNumber))
+
+
+// -------operations------
+
+let str1="Hello"
+let str2=" Isha"
+str3=str1+str2
+console.log(str3)
